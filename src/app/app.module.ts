@@ -16,6 +16,9 @@ import { PagePsicologiaComponent } from './page-psicologia/page-psicologia.compo
 import { PageFisioterapiaComponent } from './page-fisioterapia/page-fisioterapia.component';
 import { PageAtencionTempranaComponent } from './page-atencion-temprana/page-atencion-temprana.component';
 import { PageTerapiaOcupacionalComponent } from './page-terapia-ocupacional/page-terapia-ocupacional.component';
+import { PageAvisoLegalComponent } from './page-aviso-legal/page-aviso-legal.component';
+import { PagePoliticaCookiesComponent } from './page-politica-cookies/page-politica-cookies.component';
+import { PagePoliticaPrivacidadComponent } from './page-politica-privacidad/page-politica-privacidad.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { PageTerapiaOcupacionalComponent } from './page-terapia-ocupacional/page
     PagePsicologiaComponent,
     PageFisioterapiaComponent,
     PageAtencionTempranaComponent,
-    PageTerapiaOcupacionalComponent
+    PageTerapiaOcupacionalComponent,
+    PageAvisoLegalComponent,
+    PagePoliticaCookiesComponent,
+    PagePoliticaPrivacidadComponent
   ],
   imports: [
     BrowserModule,

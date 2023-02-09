@@ -1,0 +1,44 @@
+h3, p, span, i, li {
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+p, i {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.separator {
+  background-color: white;
+  height: 3px;
+  width: 40px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: start;
+}
+
+.icon-list i {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.icon-list a {
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-list a:hover i {
+  transform: scale(1.2);
+}
