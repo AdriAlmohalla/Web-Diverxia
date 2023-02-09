@@ -1,0 +1,34 @@
+.nav-link {
+  color: white;
+}
+
+.bi-list {
+  font-size: 30px;
+}
+
+.nav-link:hover {
+  animation: sub-animation 1s ease-in-out;
+}
+
+.white-underline {
+  padding-bottom: 2px;
+  border-bottom: 2px solid white;
+}
+
+.pink-underline {
+  padding-bottom: 2px;
+  border-bottom: 2px solid rgb(215, 193, 206);
+}
+
+@keyframes sub-animation {
+  0% {
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
+    opacity: 0;
+  }
+  100% {
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
+    opacity: 1;
+  }
+}
