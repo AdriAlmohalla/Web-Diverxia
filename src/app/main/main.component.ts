@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faBrain, faTruckMedical, faFlagCheckered } from '@fortawesome/free-solid-svg-icons';
+import { faBrain, faTruckMedical, faFlagCheckered, faChildReaching, faUser, faLaptop, faHouse, faPersonHiking, faMoneyCheckDollar } from '@fortawesome/free-solid-svg-icons';
 import { faHandLizard, faHandshake } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
@@ -14,5 +14,10 @@ export class MainComponent {
   faTruckMedical = faTruckMedical
   faHandshake = faHandshake
   faFlagCheckered = faFlagCheckered
-
+  faChildReaching = faChildReaching
+  faUser = faUser
+  faLaptop = faLaptop
+  faHouse = faHouse
+  faPersonHiking = faPersonHiking
+  faMoneyCheckDollar = faMoneyCheckDollar
 }

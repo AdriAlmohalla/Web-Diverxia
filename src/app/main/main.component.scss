@@ -9,7 +9,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 700px;
 }
 
 .introduction {
@@ -93,6 +93,12 @@
   object-fit: scale-down;
 }
 
+.logos {
+  background-color: white;
+  padding-bottom: .8rem;
+  border-radius: 0 0 25% 25%;
+}
+
 .logos-services {
   background-color: transparent;
   background-image: linear-gradient(100deg, #212529 15%, rgba(33, 37, 41, .5) 100%), url('../../assets/images/background-doctor-crop.jpg');
@@ -112,6 +118,7 @@
     border-radius: 50%;
     width: 60px;
     height: 60px;
+    object-fit: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,16 +134,25 @@
     margin-left: .8rem;
   }
 
-  .btn {
-    color: white;
-    font-weight: 700;
-    background-color: rgb(204, 153, 85);
-    padding: 1rem 2rem;
-    display: block;
-    margin: 3rem auto;
-  }
 
 }
+
+.btn {
+  color: white;
+  font-weight: 700;
+  background-color: rgb(204, 153, 85);
+  padding: 1rem 3rem;
+  display: block;
+  margin: 3rem auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  background-color: #212529;
+}
+
+
 
 .information {
 
@@ -161,16 +177,112 @@
 
 }
 
-.logos {
-  background-color: white;
-  padding-bottom: .5rem;
-  border-radius: 0 0 25% 25%;
+.maps {
+
+  text-align: center;
+  margin: 3rem auto;
+
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  div {
+    margin: 1rem auto;
+  }
+
+  h4 {
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+  }
 }
+
+.movility {
+  text-align: center;
+  margin: 3rem auto;
+
+  fa-icon {
+    font-size: 3rem;
+    color: rgb(204, 153, 85);
+  }
+
+}
+
+.differences {
+  text-align: center;
+  margin: 3rem auto;
+
+  h2 {
+    margin: 3rem auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(136, 221, 255);
+  }
+
+  img {
+    margin: 1rem auto;
+    width: 200px;
+    border-radius: 1rem;
+  }
+
+  h3 {
+    margin: 3rem auto 2rem auto;
+  }
+
+}
+
+
+.social {
+
+  margin: 3rem auto;
+  text-align: center;
+
+  span {
+    display: inline-block;
+    margin: 2rem;
+    padding: .7rem;
+    border-radius: .5rem;
+    color: white;
+    background-color: rgb(204, 153, 85);
+  }
+
+  .icon-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-list i {
+    margin: 0 10px;
+    color: white;
+    background-color: rgb(215, 193, 206);
+    padding: .6rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-list a {
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+  }
+
+  .icon-list a:hover {
+    transform: scale(1.2);
+  }
+
+}
+
 
 @media (max-width: 768px) {
 
   .header {
-    height: 75vh;
+    height: 500px;
   }
 
   .introduction {
