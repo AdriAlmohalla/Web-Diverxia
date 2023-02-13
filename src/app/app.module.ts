@@ -19,6 +19,7 @@ import { PageTerapiaOcupacionalComponent } from './page-terapia-ocupacional/page
 import { PageAvisoLegalComponent } from './page-aviso-legal/page-aviso-legal.component';
 import { PagePoliticaCookiesComponent } from './page-politica-cookies/page-politica-cookies.component';
 import { PagePoliticaPrivacidadComponent } from './page-politica-privacidad/page-politica-privacidad.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { PagePoliticaPrivacidadComponent } from './page-politica-privacidad/page
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
