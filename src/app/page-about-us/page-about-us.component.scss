@@ -1,0 +1,102 @@
+header {
+
+  text-align: center;
+  background-image: url('../../assets/images/background-about-us.png');
+  padding: 4rem;
+
+  fa-icon {
+    color: rgb(204, 153, 85);
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 80px;
+    font-family: 'Yellotail';
+    font-weight: 400;
+  }
+
+}
+
+.about-me {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+  }
+
+  div {
+    width: 500px;
+  }
+}
+
+.education {
+
+  margin: 3rem auto;
+  color: white;
+
+  .education-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+
+  .tittle {
+    font-size: 25px;
+    font-weight: 700;
+    margin: .2rem auto;
+    padding: .5rem;
+    text-align: center;
+    line-height: 1.2;
+    background-color: rgb(204, 153, 85);
+    border-radius: 1rem;
+    width: 100%;
+  }
+
+  div {
+    margin: auto;
+  }
+
+  img {
+    border-radius: 2rem;
+    max-width: 400px;
+    margin: 2rem auto;
+  }
+
+}
+
+@media (max-width: 720px) {
+
+  header {
+
+    h1 {
+      font-size: 60px;
+    }
+
+  }
+
+  .about-me {
+
+    img {
+      width: 300px;
+      height: 300px;
+    }
+
+    div {
+      width: fit-content;
+    }
+
+  }
+
+}

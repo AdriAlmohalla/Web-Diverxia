@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-page-about-us',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./page-about-us.component.scss']
 })
 export class PageAboutUsComponent {
+
+  faHandHoldingHeart = faHandHoldingHeart
 
 }
