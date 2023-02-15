@@ -66,11 +66,14 @@ header {
 
   div {
     margin: auto;
+    overflow: hidden;
   }
 
   img {
     border-radius: 2rem;
     max-width: 400px;
+    width: 100%;
+    height: auto;
     margin: 2rem auto;
   }
 
