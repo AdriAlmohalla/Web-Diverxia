@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
+import { faHandHoldingHeart, faArrowsToCircle, faA, faUserDoctor, faPhone, faEnvelope, faMapLocation } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-page-about-us',
@@ -9,5 +9,11 @@ import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
 export class PageAboutUsComponent {
 
   faHandHoldingHeart = faHandHoldingHeart
+  faUserDoctor = faUserDoctor
+  faArrowsToCircle = faArrowsToCircle
+  faA = faA
+  faPhone = faPhone
+  faEnvelope = faEnvelope
+  faMapLocation = faMapLocation
 
 }

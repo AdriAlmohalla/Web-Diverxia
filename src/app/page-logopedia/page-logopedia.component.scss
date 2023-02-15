@@ -1,0 +1,123 @@
+header {
+
+  text-align: center;
+  margin-bottom: 7rem;
+
+  h2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(204, 156, 100);
+    margin-top: 5rem;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  .separator {
+    height: 3px;
+    width: 250px;
+    background-color: rgb(204, 156, 100);
+    margin: 2rem auto;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: .8;
+  }
+
+}
+
+.info {
+  margin: 7rem auto;
+
+  div.col-md-3 {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  fa-icon {
+    font-size: 4rem;
+    color: rgb(204, 156, 100);
+    margin: 0 auto;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+}
+
+.treatments {
+  margin: 7rem auto;
+
+  .img {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    border-radius: 2rem;
+    box-shadow: -10px 10px 0px 0px rgba(215, 193, 206, 1);
+  }
+
+  div {
+    margin: 2rem auto;
+  }
+
+}
+
+.btn {
+  color: white;
+  font-weight: 700;
+  background-color: rgb(204, 153, 85);
+  padding: 1rem 3rem;
+  display: block;
+  margin: 3rem auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  background-color: #212529;
+}
+
+.asked-question {
+
+  margin: 7rem auto;
+
+  a {
+    text-decoration: none;
+  }
+
+}
+
+.contact {
+  text-align: center;
+  margin: 7rem auto;
+
+  span {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(204, 156, 100);
+    margin-top: 5rem;
+  }
+
+  h3 {
+    font-size: 55px;
+  }
+
+  .separator {
+    height: 3px;
+    width: 250px;
+    background-color: rgb(204, 156, 100);
+    margin: 2rem auto;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+}

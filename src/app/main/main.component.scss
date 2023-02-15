@@ -13,6 +13,7 @@
 }
 
 .introduction {
+  margin: 5rem auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -99,7 +100,7 @@
 
 .logos {
   background-color: white;
-  padding-bottom: .8rem;
+  // padding-bottom: .8rem;
   border-radius: 0 0 25% 25%;
 }
 
