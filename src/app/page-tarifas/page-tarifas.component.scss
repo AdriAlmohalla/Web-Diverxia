@@ -1,0 +1,84 @@
+header {
+  height: 26rem;
+  text-align: center;
+  padding: 7rem auto;
+  background-color: rgb(243, 237, 239);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .separator {
+    height: 2px;
+    width: 150px;
+    background-color: rgb(215, 193, 206);
+    margin: 2rem auto;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+}
+
+// a {
+//   display: block;
+//   margin: 1rem auto;
+//   width: 75%;
+//   background-color: rgb(204, 153, 85);
+// }
+
+.btn {
+  color: white;
+  font-weight: 700;
+  background-color: rgb(204, 153, 85);
+  padding: 1rem 5rem;
+  display: block;
+  margin: 3rem auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  background-color: #212529;
+}
+
+.card-header {
+  font-weight: 700;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .5rem 0;
+
+  .left {
+    margin-right: .5rem;
+  }
+
+}
+
+.asked-question {
+  margin: 7rem auto;
+}
+
+.logos {
+
+  background-color: rgb(214, 192, 205);
+
+  .logos-container {
+    background-color: white;
+    border-radius: 0 0 25% 25%;
+  }
+
+  img {
+    max-width: 300;
+    object-fit: scale-down;
+  }
+
+}
