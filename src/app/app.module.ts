@@ -20,6 +20,8 @@ import { PageAvisoLegalComponent } from './page-aviso-legal/page-aviso-legal.com
 import { PagePoliticaCookiesComponent } from './page-politica-cookies/page-politica-cookies.component';
 import { PagePoliticaPrivacidadComponent } from './page-politica-privacidad/page-politica-privacidad.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PageNeuropsicologiaComponent } from './page-neuropsicologia/page-neuropsicologia.component';
+import { PagePeritajeComponent } from './page-peritaje/page-peritaje.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     PageTerapiaOcupacionalComponent,
     PageAvisoLegalComponent,
     PagePoliticaCookiesComponent,
-    PagePoliticaPrivacidadComponent
+    PagePoliticaPrivacidadComponent,
+    PageNeuropsicologiaComponent,
+    PagePeritajeComponent
   ],
   imports: [
     BrowserModule,
