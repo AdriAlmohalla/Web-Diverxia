@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faHandsPraying, faChildren, faLungs, faPersonHalfDress } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-page-fisioterapia',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./page-fisioterapia.component.scss']
 })
 export class PageFisioterapiaComponent {
+
+  faHandsPraying = faHandsPraying
+  faChildren = faChildren
+  faLungs = faLungs
+  faPersonHalfDress = faPersonHalfDress
 
 }

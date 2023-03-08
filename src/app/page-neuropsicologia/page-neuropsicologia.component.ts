@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faUserDoctor, faStethoscope, faBriefcaseMedical } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-page-neuropsicologia',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./page-neuropsicologia.component.scss']
 })
 export class PageNeuropsicologiaComponent {
+
+  faUserDoctor = faUserDoctor
+  faStethoscope = faStethoscope
+  faBriefcaseMedical = faBriefcaseMedical
 
 }

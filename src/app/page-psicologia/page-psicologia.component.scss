@@ -21,6 +21,29 @@ header {
 
 }
 
+.treatments {
+  margin: 7rem auto;
+
+  .img {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    border-radius: 2rem;
+    box-shadow: -10px 10px 0px 0px rgba(215, 193, 206, 1);
+  }
+
+  li {
+    list-style: none;
+  }
+
+  div {
+    margin: 2rem auto;
+  }
+
+}
+
 .info {
   margin: 7rem auto;
 
