@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faHandshake } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-page-psicologia',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./page-psicologia.component.scss']
 })
 export class PagePsicologiaComponent {
+
+  faHandshake = faHandshake;
 
 }
