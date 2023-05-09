@@ -23,6 +23,41 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PageNeuropsicologiaComponent } from './page-neuropsicologia/page-neuropsicologia.component';
 import { PagePeritajeComponent } from './page-peritaje/page-peritaje.component';
 
+// Importa NgcCookieConsentModule
+import { NgcCookieConsentModule, NgcCookieConsentConfig } from 'ngx-cookieconsent';
+import { environment } from '../environments/environments';
+import { CookieBannerComponent } from './componenets/cookie-banner/cookie-banner.component';
+
+const cookieConfig: NgcCookieConsentConfig = {
+  cookie: {
+    domain: environment.production ? 'www.logopedasarasanchezortigosa.com' : 'localhost'
+  },
+  position: 'bottom',
+  theme: 'block',
+  palette: {
+    popup: {
+      background: '#000000',
+      text: '#ffffff',
+      link: '#ffffff'
+    },
+    button: {
+      background: '#f1d600',
+      text: '#000000',
+      border: 'transparent'
+    }
+  },
+  type: 'info',
+  content: {
+    header: 'Cookies utilizadas en este sitio web',
+    message: 'Este sitio web utiliza cookies propias y de terceros para fines analíticos y para mostrarte publicidad personalizada en base a un perfil elaborado a partir de tus hábitos de navegación (por ejemplo, páginas visitadas).',
+    dismiss: 'Aceptar',
+    deny: 'Rechazar',
+    link: 'Más información',
+    href: 'https://sara-beta.vercel.app/politica-de-cookies',
+    policy: 'Política de cookies'
+  }
+};
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,13 +77,16 @@ import { PagePeritajeComponent } from './page-peritaje/page-peritaje.component';
     PagePoliticaCookiesComponent,
     PagePoliticaPrivacidadComponent,
     PageNeuropsicologiaComponent,
-    PagePeritajeComponent
+    PagePeritajeComponent,
+    CookieBannerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    // Importa NgcCookieConsentModule.forRoot(cookieConfig)
+    NgcCookieConsentModule.forRoot(cookieConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]

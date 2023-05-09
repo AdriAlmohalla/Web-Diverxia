@@ -1,0 +1,26 @@
+<div class="cookie-banner" *ngIf="showBanner">
+  <p>
+    Utilizamos cookies propias y de terceros para fines analíticos y para mostrarte
+    publicidad personalizada en base a un perfil elaborado a partir de tus hábitos de
+    navegación (por ejemplo, páginas visitadas). <a [routerLink]="['/politica-de-cookies']" (click)="configure()">Clica
+      aquí</a> para más información.
+    Puedes
+    aceptar todas las cookies pulsando el botón “Aceptar” o configurarlas o rechazar su
+    uso pulsando el botón “configurar”
+  </p>
+  <button (click)="acceptCookies()">ACEPTAR COOKIES</button>
+  <button (click)="configure()">CONFIGURAR</button>
+</div>
+
+<div class="cookie-banner" *ngIf="showBanner">
+  <!-- Contenido previo -->
+</div>
+
+<div class="modal" [ngClass]="{ 'modal-open': showModal }">
+  <div class="modal-content">
+    <h2>Configuración de cookies</h2>
+    <p>Selecciona si deseas aceptar o rechazar las cookies.</p>
+    <button (click)="acceptCookiesFromModal()">Aceptar cookies</button>
+    <button (click)="rejectCookies()">Rechazar cookies</button>
+  </div>
+</div>
